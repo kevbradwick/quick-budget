@@ -1,0 +1,24 @@
+{
+  "name": "quick-budget",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve --dist-dir docs index.pug",
+    "build": "parcel build --dist-dir docs index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevbradwick/quick-budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevbradwick/quick-budget/issues"
+  },
+  "homepage": "https://github.com/kevbradwick/quick-budget#readme",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}
